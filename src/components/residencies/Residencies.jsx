@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Residencies.css";
@@ -44,8 +44,12 @@ const SliderButton = () => {
 
   return (
     <div className="flexCenter r-button">
-      <button onClick={() => swiper.slidePrev()}>&lt;</button>
-      <button onClick={() => swiper.slideNext()}>&gt;</button>
+      <button id="swiper" onClick={() => swiper.slidePrev()}>
+        &lt;
+      </button>
+      <button id="swiper" onClick={() => swiper.slideNext()}>
+        &gt;
+      </button>
     </div>
   );
 };

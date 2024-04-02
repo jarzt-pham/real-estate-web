@@ -69,3 +69,8 @@
   background-color: white;
   scale: 1.1;
 }
+
+.r-button > button:active {
+  transform: scale(0.8);
+  background-color: #f4f3ff;
+}
