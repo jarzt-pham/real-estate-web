@@ -38,9 +38,8 @@ function Value() {
             preExpanded={[0]}
           >
             {data.map((item, i) => {
-              const { className, setClassName } = useState(null);
+              const [className, setClassName] = useState(null);
 
-              console.log({ className, setClassName });
               return (
                 <AccordionItem
                   className={`accordionItem ${className}`}

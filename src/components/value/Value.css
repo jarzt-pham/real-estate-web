@@ -22,6 +22,7 @@
   box-shadow: var(--shadow);
   border-radius: 6px;
 }
+
 .accordionButton {
   background: white;
   padding: 1rem;
