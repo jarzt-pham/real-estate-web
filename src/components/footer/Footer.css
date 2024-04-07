@@ -17,3 +17,14 @@ ul > li {
   font-size: 0.9rem;
   margin-right: 15px;
 }
+
+@media (max-width: 600px) {
+  .f-container {
+    justify-content: center;
+  }
+
+  .f-container > div {
+    align-items: center;
+    text-align: center;
+  }
+}
